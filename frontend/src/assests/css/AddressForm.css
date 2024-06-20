@@ -1,0 +1,122 @@
+/* AddressForm.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .app-bar {
+    background-color: #1976D2;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .address-form {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out;
+  }
+  .next-button-container {
+    display: flex;
+    margin-top: 20px; /* Add some spacing between the form and the button */
+    justify-content: flex-end;
+  }
+  
+  .next-button {
+    background-color: #2196F3; /* Blue color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .next-button:hover {
+    background-color: #1976D2; /* Darker blue color on hover */
+  }
+  .previous-button-container {
+    display: flex;
+    margin-top: 20px; /* Add some spacing between the form and the button */
+    justify-content: flex-start;
+  }
+  
+  .previous-button {
+    background-color: #2196F3; /* Blue color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .previous-button:hover {
+    background-color: #1976D2; /* Darker blue color on hover */
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between; /* Space between the buttons */
+    align-items: flex-end; /* Align the buttons to the bottom */
+    margin-top: 20px; /* Add some spacing between the form and the buttons */
+  }
+
+    
+  
+  
+  
+  
+  
+  
+  .app-footer {
+    position: relative;
+    background-color: #1976D2; /* Blue color */
+    padding: 10px 0; /* Add some padding for better appearance */
+    text-align: center;
+    color: #fff; /* Text color */
+    width: 100%; /* Occupy the full width */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,66 @@
+/* Checkout.css */
+
+/* Style the main container */
+.container {
+    background-color: #f8f8f8; /* Background color */
+    padding: 20px;
+  }
+  
+  /* Style the paper component */
+  .paper {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Style the stepper */
+  .stepper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  /* Style the step labels */
+  .step-label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Style the back and next buttons */
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+  
+  .button-container button {
+    margin-left: 10px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+  }
+  /* Add this CSS to your Checkout.css */
+.scrollable-container {
+    height: calc(100vh - 64px); /* Adjust for your AppBar height if needed */
+    overflow-y: auto;
+  }
+  .logout1 {
+    color: #fff; 
+    margin-left: -1400px;
+    top: -70px;
+    position: relative;
+  }
+  .animation-containerprivacy{
+    margin-top:-120px;
+    margin-left: 600px;
+    width: 550px;
+    height: 550px;
+  }
+  .full{
+    margin-top: -320px;
+  }

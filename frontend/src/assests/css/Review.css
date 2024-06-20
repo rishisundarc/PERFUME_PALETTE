@@ -1,0 +1,98 @@
+/* Review.css */
+.review-container {
+    background-color: #f0f0f0; /* Background color */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    max-height: calc(100vh - 100px); /* Set max height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin: auto;
+    width: 80%; /* Set the width as needed */
+  
+  
+    /* Add hover effect */
+    &:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+  /* Header styles */
+.header {
+    background-color: #1976d2; /* Blue background color for the header */
+    color: white; /* Text color for the header */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .header-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Set your desired font family */
+    font-size: 28px; /* Set your desired font size */
+  }
+  
+  /* Style for the "Order summary" title */
+  .review-title {
+    color: #2196F3; /* Title color */
+    margin-bottom: 20px; /* Spacing below title */
+  }
+  
+  /* Style for product list items */
+  .product-item {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the "Total" item */
+  .total-item {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  /* Style for shipping and payment details */
+  .details-section {
+    margin-top: 20px;
+  }
+  
+  /* Style for shipping section */
+  .shipping-section {
+    margin-top: 20px;
+  }
+  
+  /* Style for payment section */
+  .payment-section {
+    margin-top: 20px;
+  }
+  
+  /* Style for individual payment details */
+  .payment-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .MuiButton-contained {
+    background-color: #1976D2;
+    color: #fff;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Add styles for the Stepper */
+  .MuiStepIcon-root.MuiStepIcon-active {
+    color: #1976D2;
+  }
+  
+  /* Add styles for the background color of active step in Stepper */
+  .MuiStepLabel-active {
+    color: #1976D2;
+  }
+  .MuiStepLabel-label.MuiTypography-root {
+  font-weight: bold; /* Make the step labels bold */
+}
+  /* Rest of the CSS styles remain the same */
+  
